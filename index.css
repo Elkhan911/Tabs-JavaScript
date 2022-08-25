@@ -21,7 +21,7 @@
   background: #f2f2f2;
 }
 
-.content__text {
+.content__page {
   width: 80%;
   margin: 0 auto 100px;
   border: 1px solid saddlebrown;
@@ -30,12 +30,12 @@
   display: none;
 }
 
-.content__text_active {
+.content__page_active {
   display: block;
 }
 
 .content__image {
-  margin: auto;
+  margin: 10px auto;
   display: block;
   max-width: 40%;
 }
