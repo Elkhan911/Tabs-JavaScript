@@ -1,0 +1,16 @@
+.task {
+  border: 1px solid black;
+  margin: 100px auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.tabs {
+  border: 1px solid blue;
+}
+
+.tabs__link {
+  border: 1px solid green;
+  padding: 20px;
+  display: inline-block;
+}
