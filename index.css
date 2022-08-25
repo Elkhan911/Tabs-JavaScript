@@ -14,3 +14,17 @@
   padding: 20px;
   display: inline-block;
 }
+
+.tabs_text {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border: 1px solid saddlebrown;
+  text-align: center;
+  font-size: 20px;
+  display: none;
+}
+
+.tabs_text_active {
+  display: block;
+}
