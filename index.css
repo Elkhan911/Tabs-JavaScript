@@ -1,8 +1,13 @@
-.task {
+.content {
   border: 1px solid black;
-  margin: 80px auto;
   width: 1200px;
   text-align: center;
+  margin: 20px auto 0;
+  padding: 20px;
+}
+
+.content__header {
+  font-size: 40px;
 }
 
 .tabs {
@@ -14,6 +19,7 @@
   border: 1px solid greenyellow;
   padding: 20px;
   display: inline-block;
+  font-size: 18px;
 }
 
 .tabs__link_active {
@@ -21,7 +27,11 @@
   background: #f2f2f2;
 }
 
-.content__page {
+.container__header {
+  font-size: 24px;
+}
+
+.container__page {
   width: 80%;
   margin: 0 auto 100px;
   border: 1px solid saddlebrown;
@@ -30,11 +40,11 @@
   display: none;
 }
 
-.content__page_active {
+.container__page_active {
   display: block;
 }
 
-.content__image {
+.container__image {
   margin: 10px auto;
   display: block;
   max-width: 40%;

@@ -8,33 +8,33 @@ const tabText2 = document.querySelector("#_tabText2");
 const tabText3 = document.querySelector("#_tabText3");
 
 link1.addEventListener("click", function () {
-  tabText1.classList.add("content__page_active");
+  tabText1.classList.add("container__page_active");
   link1.classList.add("tabs__link_active");
 
-  tabText2.classList.remove("content__page_active");
-  tabText3.classList.remove("content__page_active");
+  tabText2.classList.remove("container__page_active");
+  tabText3.classList.remove("container__page_active");
 
   link2.classList.remove("tabs__link_active");
   link3.classList.remove("tabs__link_active");
 });
 
 link2.addEventListener("click", function () {
-  tabText2.classList.add("content__page_active");
+  tabText2.classList.add("container__page_active");
   link2.classList.add("tabs__link_active");
 
-  tabText1.classList.remove("content__page_active");
-  tabText3.classList.remove("content__page_active");
+  tabText1.classList.remove("container__page_active");
+  tabText3.classList.remove("container__page_active");
 
   link1.classList.remove("tabs__link_active");
   link3.classList.remove("tabs__link_active");
 });
 
 link3.addEventListener("click", function () {
-  tabText3.classList.add("content__page_active");
+  tabText3.classList.add("container__page_active");
   link3.classList.add("tabs__link_active");
 
-  tabText1.classList.remove("content__page_active");
-  tabText2.classList.remove("content__page_active");
+  tabText1.classList.remove("container__page_active");
+  tabText2.classList.remove("container__page_active");
 
   link1.classList.remove("tabs__link_active");
   link2.classList.remove("tabs__link_active");
